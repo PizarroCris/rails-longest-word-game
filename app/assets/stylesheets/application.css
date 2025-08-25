@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ .letters p {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier Prime", monospace;
+  width: 40px;
+  height: 40px;
+  background-color: #3398db; 
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 2px;
+  margin: 5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
